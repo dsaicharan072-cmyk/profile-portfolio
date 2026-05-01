@@ -10,7 +10,7 @@ The website is fully deployed and accessible online.
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio Website:** [Add your deployed link here]
+🔗 **Portfolio Website:** https://69f4cb848cd86f3f9a48bbc0--peaceful-faun-b5464d.netlify.app
 
 ---
 
@@ -47,12 +47,6 @@ The website is fully deployed and accessible online.
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots of your website here if needed)
-
----
-
 ## 🧠 What I Learned
 
 * Building and structuring a complete portfolio website
@@ -66,9 +60,9 @@ The website is fully deployed and accessible online.
 
 Feel free to reach out for opportunities or collaborations:
 
-* Email: [your email]
-* LinkedIn: [your LinkedIn link]
-* GitHub: [your GitHub profile link]
+* Email: dsaicharan072@gmail.com
+* LinkedIn: https://www.linkedin.com/in/saicharan-d-050065380/
+* GitHub: https://github.com/dsaicharan072-cmyk
 
 ---
 
