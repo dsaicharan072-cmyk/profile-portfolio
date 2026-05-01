@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Charan | Software Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Sai Charan</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Features</a></li>
+            <li><a href="#pro">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero-section animate-on-scroll">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h4 class="slide-in-left">Hello! I am <span>Sai Charan</span></h4>
+                    <h1 class="slide-in-right">Judges a book <br> by its <span>cover</span>.</h1>
+                    <p class="subtitle typing-container"><span class="typing-text"></span><span class="cursor">&nbsp;</span></p>
+                    <p class="desc fade-in-up">
+                        A first-year student passionate about web development and software engineering.
+                        I love building meaningful and delightful digital products that combine 
+                        user needs with beautiful design.
+                    </p>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img class="hero-image floating" src="https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-cute-cartoon-kid-sitting-in-front-of-a-desktop-computer-png-image_16131112.png" alt="Sai Charan">
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Features Section -->
+        <section id="skills" class="experience-section animate-on-scroll">
+            <h2 class="section-title">Experience & Skills</h2>
+            <div class="experience-grid">
+                <!-- Card 1 -->
+                <div class="experience-card glass-panel hover-lift">
+                    <div class="icon">💻</div>
+                    <div>
+                        <h3>Self-Taught Developer</h3>
+                        <p>Actively learning and building web applications using HTML, CSS, and JavaScript. Passionate about creating responsive UI/UX.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="experience-card glass-panel hover-lift">
+                    <div class="icon">🎓</div>
+                    <div>
+                        <h3>Academic Projects</h3>
+                        <p>Applying foundational computer science concepts to solve problems and build introductory level projects in college.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="experience-card glass-panel hover-lift">
+                    <div class="icon">🚀</div>
+                    <div>
+                        <h3>Hackathons & Tech Clubs</h3>
+                        <p>Engaging with the tech community, collaborating with peers, and exploring new technologies beyond the classroom.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="experience-card glass-panel hover-lift">
+                    <div class="icon">🛠️</div>
+                    <div>
+                        <h3>Core Fundamentals</h3>
+                        <p>Building a strong foundation in Data Structures, Algorithms, and Object-Oriented Programming principles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="pro" class="projects-section animate-on-scroll">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Card 1 -->
+                <div class="project-card hover-lift" onclick="openProject('tictactoe')" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTws-j1F_0DsGSMrPY8hqvd10nkBIwSsPw9HA&s');">
+                    <div class="project-info glass-panel">
+                        <p>A Tic Tac Toe game built with HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="project-card hover-lift" onclick="openProject('calculator')" style="background-image:url('https://media.istockphoto.com/id/1026400680/photo/financial-spreadsheet-report.jpg?s=612x612&w=0&k=20&c=-MizrLOlNcijxkTMn-3RaE50gT9yO8fN-iezzt06Ppk=');">
+                    <div class="project-info glass-panel">
+                        <p>A web-based calculator developed that performs arithmetic operations.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="project-card hover-lift" onclick="openProject('typingtest')" style="background-image:url('https://preview.redd.it/world-record-typing-293-wpm-for-15-seconds-monkeytype-v0-hy0f3n79u8qd1.png?width=286&format=png&auto=webp&s=b90b9d4bf5467367258ec3c34a17c5d3db206523');">
+                    <div class="project-info glass-panel">
+                        <p>A typing speed test web app inspired by Monkeytype.</p>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="project-card hover-lift" onclick="openProject('websiteclone')" style="background-image:url('https://cdn.shopify.com/s/files/1/0247/8551/8688/t/18/assets/exercise_routine_to_do_list_resized-1672763626319_500x.jpg?v=1672763630');">
+                    <div class="project-info glass-panel">
+                        <p>A front-end clone of a popular website recreated using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="project-card hover-lift" onclick="openProject('todolist')" style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUaEGxBAgHZleaM_IBAPUiAnqKwSlz8qookw&s');">
+                    <div class="project-info glass-panel">
+                        <p>A to-do list web application for managing daily tasks.</p>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="project-card hover-lift" onclick="openProject('onenote')" style="background-image:url('https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=600&auto=format&fit=crop');">
+                    <div class="project-info glass-panel">
+                        <p>One Note: A Canvas JS based drawing and note-taking application.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section animate-on-scroll">
+            <h2 class="section-title text-center">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-form-container glass-panel">
+                    <h3 class="greet-heading">Get In Touch</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="input-group">
+                            <label for="name">NAME:</label>
+                            <input id="name" class="form-controls" type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">EMAIL:</label>
+                            <input id="email" class="form-controls" type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">PHONE NO:</label>
+                            <input id="phone" class="form-controls" type="text" placeholder="Your Phone" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="message">COMMENTS:</label>
+                            <textarea id="message" class="form-controls" placeholder="Write your message" rows="4" required></textarea>
+                        </div>
+                        <button class="btn common-btn hover-lift" type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-details glass-panel">
+                    <h3 class="greet-heading">My Contact Details</h3>
+                    <div class="details">
+                        <h5 class="contact-heading">EMAIL</h5>
+                        <p class="contact-text">dsaicharan072@gmail.com</p>
+                    </div>
+                    <div class="details">
+                        <h5 class="contact-heading">PHONE</h5>
+                        <p class="contact-text">+91 0123456789</p>
+                    </div>
+                    <div class="details">
+                        <h5 class="contact-heading">FAX</h5>
+                        <p class="contact-text">+91 0123456789</p>
+                    </div>
+                    <div class="details">
+                        <h5 class="contact-heading">ADDRESS</h5>
+                        <p class="contact-text">Bangalore, Karnataka<br>shyam nest kea pg, G4<br>Vijayashri Layout, Hulimavu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>
+                Copyright &copy; 2023 All rights reserved |
+                This portfolio website template is recreated by Sai Charan.
+            </p>
+            <div class="social-links">
+                <ul class="footer-menu-list">
+                    <li class="footer-list-items"><a class="footer-links" href="https://www.linkedin.com/in/saicharan-d-050065380/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="footer-list-items"><a class="footer-links" href="https://leetcode.com/u/SaiCharan072/" target="_blank" title="LeetCode"><i class="fas fa-code"></i></a></li>
+                    <li class="footer-list-items"><a class="footer-links" href="https://codeforces.com/profile/saicharan072" target="_blank" title="Codeforces"><i class="fas fa-laptop-code"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/607182b0b6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
