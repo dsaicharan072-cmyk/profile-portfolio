@@ -10,7 +10,7 @@ The website is fully deployed and accessible online.
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio Website:** https://69f4cb848cd86f3f9a48bbc0--peaceful-faun-b5464d.netlify.app
+https://dsaicharan072-cmyk.github.io/profile-portfolio/
 
 ---
 
